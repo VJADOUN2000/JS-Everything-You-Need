@@ -28,3 +28,8 @@ let h1 = document.querySelector("h1");
 console.dir(h1);
 
 h1.textContent = "Hello Vikrant kaise ho"
+
+h1.innerHTML= ("<u>Using Html inner html to manipulate DOM </u>")
+
+//textContent & innerText is same but inner.HTML is used to add html tag using js in Dom
+
