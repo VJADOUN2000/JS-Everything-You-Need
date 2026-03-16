@@ -1,3 +1,0 @@
-The DOM
-
--> DOM Tree Structure: node, element, text, comment
