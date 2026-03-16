@@ -16,7 +16,15 @@
 
 // let a = document.querySelector("h1")
 
-let a = document.querySelectorAll("h1")
+// let a = document.querySelectorAll("h1")
 
-console.log(a) /// try console.dir(a)  ---> if not opening
+// console.log(a) /// try console.dir(a)  ---> if not opening
 
+
+//=======================================Changing HTML text==================
+
+let h1 = document.querySelector("h1");
+
+console.dir(h1);
+
+h1.textContent = "Hello Vikrant kaise ho"
