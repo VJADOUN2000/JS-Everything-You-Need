@@ -64,4 +64,19 @@ h1.textContent ="Hello ji kaise hu aap"
 
 console.log(h1)
 
-document.querySelector("body").append(h1)
+document.querySelector("body").append(h1)  //----------------> Add html tag at the end of body tag after script
+
+document.querySelector("body").prepend(h1) //------------> Add html tag in starting of body
+
+//=============Remove Eelemnt using JS=========
+
+let h2 =document.createElement("h1");
+
+h2.textContent = "this is another h1 added using JS";
+
+document.querySelector("div").appendChild(h2)
+
+//==========will  remove h1 element from body
+
+
+
