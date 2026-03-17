@@ -79,4 +79,7 @@ document.querySelector("div").appendChild(h2)
 //==========will  remove h1 element from body
 
 
+// next will understand changing element color using JS
+
+
 
