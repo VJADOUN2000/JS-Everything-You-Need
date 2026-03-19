@@ -35,9 +35,9 @@
 
 //=======attribute========>
 
-let a = document.querySelector("a")
+// let a = document.querySelector("a")
 
-console.dir(a) // by default if href is not defined it will take local host url by default
+// console.dir(a) // by default if href is not defined it will take local host url by default
 
 //a.href= "https://www.google.com";
 
@@ -58,23 +58,23 @@ console.dir(a) // by default if href is not defined it will take local host url 
 // create element
 // append/prepend karo jaha bhi element chahiye waha
 
-let h1 = document.createElement("h1")
+// let h1 = document.createElement("h1")
 
-h1.textContent ="Hello ji kaise hu aap"
+// h1.textContent ="Hello ji kaise hu aap"
 
-console.log(h1)
+// console.log(h1)
 
-document.querySelector("body").append(h1)  //----------------> Add html tag at the end of body tag after script
+// document.querySelector("body").append(h1)  //----------------> Add html tag at the end of body tag after script
 
-document.querySelector("body").prepend(h1) //------------> Add html tag in starting of body
+// document.querySelector("body").prepend(h1) //------------> Add html tag in starting of body
 
-//=============Remove Eelemnt using JS=========
+// //=============Remove Eelemnt using JS=========
 
-let h2 =document.createElement("h1");
+// let h2 =document.createElement("h1");
 
-h2.textContent = "this is another h1 added using JS";
+// h2.textContent = "this is another h1 added using JS";
 
-document.querySelector("div").appendChild(h2)
+// document.querySelector("div").prepend(h2)
 
 //==========will  remove h1 element from body
 
@@ -82,4 +82,7 @@ document.querySelector("div").appendChild(h2)
 // next will understand changing element color using JS
 
 
+let h1 = document.querySelector("h1");
+
+h1.style.color = "red";
 
