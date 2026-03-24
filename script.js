@@ -95,6 +95,13 @@ let m = document.querySelector("h1")
 
 let li = document.querySelectorAll("li")
 
-li.forEach(function(val){
- console.log(val.textContent)
-})
+// li.forEach(function(val){
+//  console.log(val.textContent)
+// })
+
+
+//or-------------
+
+for(let i=0;i<li.length;i++){
+    console.log(li[i].textContent)
+}
