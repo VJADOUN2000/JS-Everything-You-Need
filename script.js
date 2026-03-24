@@ -87,3 +87,14 @@ let h1 = document.querySelector("h1");
 h1.style.color = "red";
 h1.style.backgroundColor ="purple"
 h1.style.textTransform = "capitalize"
+
+let m = document.querySelector("h1")
+
+
+//Q Select all <li> elemant and prient thrie content using loop
+
+let li = document.querySelectorAll("li")
+
+li.forEach(function(val){
+ console.log(val)
+})
