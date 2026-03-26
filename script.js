@@ -118,3 +118,23 @@ console.dir(buynow)
 let h = document.querySelector("#h")
 
 h.textContent = "Welcome to Learning"
+
+
+// What is difference between innerText, textContent and innerHTML?
+
+//innerText and innerContent are mostly same means they change content of html
+
+//while innerHTML also convert HTML tag to normal
+
+
+//Q20 When to use textContent instead of innerText. And Why?
+
+//-----> textContent is faster and prent hidden content too like inside <H1> if we have <span> it will also print span content also
+
+// Task 3 --> Select a paragraph and replace its content with its: 
+
+let p =document.querySelector("p")
+
+p.innerHTML = "<b>Updated<b> by JavaScript";
+
+ 
