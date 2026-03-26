@@ -82,13 +82,13 @@
 // next will understand changing element color using JS
 
 
-let h1 = document.querySelector("h1");
+// let h1 = document.querySelector("h1");
 
-h1.style.color = "red";
-h1.style.backgroundColor ="purple"
-h1.style.textTransform = "capitalize"
+// h1.style.color = "red";
+// h1.style.backgroundColor ="purple"
+// h1.style.textTransform = "capitalize"
 
-let m = document.querySelector("h1")
+// let m = document.querySelector("h1")
 
 
 //Q Select all <li> elemant and prient thrie content using loop
@@ -111,3 +111,10 @@ for(let i=0;i<li.length;i++){
 let buynow = document.querySelectorAll(".buy-now");
 
 console.dir(buynow)
+
+
+//Task 1 changing text using JS
+
+let h = document.querySelector("#h")
+
+h.textContent = "Welcome to Learning"
