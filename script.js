@@ -105,3 +105,9 @@ let li = document.querySelectorAll("li")
 for(let i=0;i<li.length;i++){
     console.log(li[i].textContent)
 }
+
+// Question to print class buy now element
+
+let buynow = document.querySelectorAll(".buy-now");
+
+console.dir(buynow)
