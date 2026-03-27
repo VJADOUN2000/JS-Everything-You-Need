@@ -148,4 +148,6 @@ let img =document.querySelector("img")
 
 console.log(img.getAttribute("src"))
 
- // will start react
+ // will start react 
+
+ //Update the JS logic
