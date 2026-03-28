@@ -153,3 +153,6 @@ console.log(img.getAttribute("src"))
  //Update the JS logic
 
  //will learn JS
+
+
+ ////Start by working Making projects
