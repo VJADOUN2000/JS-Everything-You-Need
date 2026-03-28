@@ -151,3 +151,5 @@ console.log(img.getAttribute("src"))
  // will start react 
 
  //Update the JS logic
+
+ //will learn JS
